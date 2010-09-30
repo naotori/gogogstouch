@@ -1,0 +1,40 @@
+#loadingmask {
+background: rgba(0, 0, 0, .3) url(../img/loading.gif) center center no-repeat;
+display: block;
+width: 10em;
+height: 10em;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-left: -5em;
+margin-top: -5em;
+-webkit-border-radius: .5em;
+color: #fff;
+text-shadow: #000 0 1px 1px;
+text-align: center;
+padding-top: 8em;
+font-weight: bold;
+}
+
+.gogogsrec .price {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: red;
+}
+
+.gogoshopinfo .price {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: red;
+}
+
+.gogoshopinfo .shopname {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.gogoshopinfo .address {
+	font-size: 0.9em;
+	color: #222222;
+}
+
