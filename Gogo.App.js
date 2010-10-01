@@ -175,6 +175,12 @@ Gogo.App = Ext.extend(Ext.Panel, {
     if(!geo) return;
     var lat = geo.latitude, lng = geo.longitude;
 
+		// If not Japan
+		if(lng < 120 || lng > 145 || lat > 46 || lat < 20){
+			lat = 35.671766;
+			lon = 139.613228
+		}
+
     this.store.load({
       params: { lat: lat, lon: lng }
     });
