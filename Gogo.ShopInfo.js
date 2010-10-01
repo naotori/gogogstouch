@@ -3,6 +3,7 @@ Ext.ns('Gogo');
 
 Gogo.ShopInfo = Ext.extend(Ext.Panel, {
   scroll: 'vertical',
+	ui: 'gogo-shopinfo',
   tpl: new Ext.XTemplate(
     '<div class="gogoshopinfo">',
       '<span class="price">{price}円</span><span class="pricedate">[{date:date("Y/m/d")}]</span><br>',
